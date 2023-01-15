@@ -1,0 +1,407 @@
+                                /*----------------
+                                font style link
+                                ----------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'work sans';
+}
+body{
+    width: 100%;
+}
+.color{
+    background-color: antiquewhite;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 230px 100px 230px;
+}
+.header h3{
+    display: flex;
+    justify-content: space-between;
+    font: 700;
+    font-size: 45px;
+    color: #131313;
+    
+   
+}
+
+.header-father {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-top: 15px;
+}
+.header-child{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-top: 15px;
+}
+.top-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.child-container{
+    text-align: center;
+}
+.child-container h1{
+    font-weight: 700;
+    font-size: 64px;
+    color: #131313;
+    
+}
+.child-container p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+
+}
+.child-paragraph{
+    padding-top: 30px;
+}
+button{
+    margin-left: 32px;
+    padding: 20px 24px;
+    border: none;
+    background: #FF900E;
+    border-radius: 8px;
+    color: #f0f8ff;
+    margin: 32px 0 50px 0;
+}
+.main-banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.main-banner img{
+    width: 85%;
+    padding-bottom: 45px;
+}
+                                /* done */
+                        /*------------------------------ 
+                        main section second container
+                        ------------------------------ */
+.container-image{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.second-container{
+    display: flex;
+    flex-direction: row;
+    margin: 85px 0 130px 200px;
+    
+}
+.container-text{
+    width: 520px;
+    padding: 50px;
+    margin-top: 200px;
+    
+}
+                            /*---------------------
+                                text section 
+                            ---------------------*/
+.container-text h2{
+    font-size: 45px;
+    font-weight: 500;
+    color: #727272;
+}
+.container-text strong{
+    font-weight: 700;
+    color: #131313;
+}
+.container-text b{
+    font-weight: 700;
+    color: #FF900E;
+}
+.container-text p{
+    width: 300px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+                                    /* done */
+                                /*-------------------
+                                middle section
+                                ------------------- */
+
+.middle-section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.main-div{
+    width: 550px;
+    margin: 50px 0 50px 200px;
+}
+.main-div-first-section h2{
+    border-left: 5px solid #FF900E;
+    padding: 20px;
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+.main-div-first-section p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    padding: 20px 0;
+    color: #727272;      
+}
+.main-div-second-section{
+    background-color:  #FFFFFF;
+    padding: 30px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+}
+
+.main-div-second-section h4{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #131313;
+}
+.main-div-second-section p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+
+}
+.middle-section-photo{
+    padding-left: 50px;
+    
+}
+.big-btn{
+    margin: -300px 0 0 -70px;
+    width: 300px;
+    height: 180px;
+    font-weight: 500;
+    font-size: 25px;
+    position: relative;
+
+}
+.big-btn h2{
+    font-weight: 700;
+    font-size: 65px;
+    color: #FFFFFF;
+}
+
+                                /*------------------
+                                 third middle section 
+                                ------------------*/
+.third-section{
+    display:flex;
+    flex-direction: column;
+}
+.third-section-first-div{
+    width: 550px;
+    margin: 130px 0 100px 200px;
+    
+}
+.third-section-first-div h2{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+.third-section-first-div p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+.third-section-second-div{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin: 0 250px 50px 250px;
+    
+}
+
+.third-section-child{
+    width: 200px;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #FF900E;
+    border-radius: 5px;
+}
+.third-section-child:hover{
+    color: #f0f8ff;
+    background: #6b3c3c;
+}
+                            /*-----------------------
+                                    footer 
+                            -----------------------*/
+.main-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.common-footer-text{
+    width: 550px;
+
+}
+.common-footer-text h2{
+    text-align: center;
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+.common-footer-text p{
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    color:#727272;
+    line-height: 26px;
+    margin: 30px;
+}
+.sponsors-photos{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    width: 1200px;
+}
+.common-footer{
+    width: 1200px;
+    background: #FFF4E7;
+    border-radius: 8px;
+    margin: 100px;
+    text-align: center;
+    padding: 50px;
+}
+                            /*-----------------------
+                            responsive styles
+                            ---------------------- */
+@media only screen and (max-width:576px) {
+    
+    
+    
+    .header{
+        margin: 0;
+        padding: 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .header-father{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+    .top-container{
+        flex-direction: column-reverse;
+    }
+   /* done header */
+   .container-image{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+
+    }
+    .second-container{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        margin: px;
+        
+    }
+    .second-container{
+        padding: 0;
+        margin: 0;
+    }
+    .container-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        margin-top: 50px;
+    }
+    .container-text h2{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+    }
+    .middle-section{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+
+    }
+
+    .middle-section-photo{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .big-btn{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+    .third-section{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .third-section-second-div{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .main-footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+    }
+    .common-footer-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+    }
+    .sponsors-photos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        margin-top: 20px;
+    }
+
+}
